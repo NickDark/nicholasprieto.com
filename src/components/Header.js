@@ -54,6 +54,7 @@ const Header = () => (
                 width="50px"
                 alt="Portfolio Logo"
                 onClick={home.onClick}
+                style={{cursor: pointer}}
               />
             );
             const navLinks = links.map(({ name, value }) => (
