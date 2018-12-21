@@ -30,14 +30,14 @@ const Helmet = ({ theme = {} }) => (
     `}
     render={data => {
       const { name, description, profile } = data.contentfulAbout;
-      const title = `${name} Portofolio`;
+      const title = `Nicholas Prieto | Web Developer`;
 
       return (
         <ReactHelmet>
           <meta charSet="utf-8" />
           <title>{title}</title>
           <meta name="description" content={description} />
-          <link rel="shortcut icon" href={profile.favicon32.src} />
+          <link rel="shortcut icon" href={../../media/icon.png} />
           <meta name="theme-color" content={theme.background} />
           <meta name="image" content={profile.favicon32.src} />
 
