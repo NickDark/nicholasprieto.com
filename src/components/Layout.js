@@ -11,8 +11,10 @@ import Header from './Header';
 import Footer from './Footer';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-131206149-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+function initializeReactGA() {
+    ReactGA.initialize('UA-131206149-1');
+    ReactGA.pageview('/');
+}
 
 const GlobalStyle = createGlobalStyle`
   * { box-sizing: border-box; }
