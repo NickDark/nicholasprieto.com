@@ -9,19 +9,13 @@ import theme from '../theme';
 import Helmet from './Helmet';
 import Header from './Header';
 import Footer from './Footer';
-import ReactGA from 'react-ga';
-
-function initializeReactGA() {
-    ReactGA.initialize('UA-131206149-1');
-    ReactGA.pageview('/');
-}
 
 const GlobalStyle = createGlobalStyle`
   * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  font-family: Lobster;
+  font-family: Cabin;
 }
 `;
 

@@ -54,14 +54,14 @@ const Footer = () => (
             display: 'table',
           }}
         >
-          Powered By
+          &copy; 2018 Nicholas Prieto
         </Text>
       </span>
       <Flex justifyContent="center" alignItems="center">
         <Logo
           url="https://www.contentful.com/"
           logo={ContentfulLogo}
-          alt="Powered by Contentful"
+          alt="Contentful"
         />
         <Text m={2} fontSize={4}>
           <span role="img" aria-label="heart">
