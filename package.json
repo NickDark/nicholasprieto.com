@@ -22,21 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EmaSuriano/gatsby-starter-mate.git"
+    "url": "git+https://github.com/nickdark/nicholasprieto.com.git"
   },
   "keywords": [
     "gatsby",
-    "starter",
-    "contentful",
-    "PWA",
     "portfolio"
   ],
-  "author": "Ema Suriano",
+  "author": "Nicholas Prieto",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EmaSuriano/gatsby-starter-mate/issues"
-  },
-  "homepage": "https://github.com/EmaSuriano/gatsby-starter-mate#readme",
   "dependencies": {
     "@babel/preset-env": "^7.12.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",

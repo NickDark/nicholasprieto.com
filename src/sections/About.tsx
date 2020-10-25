@@ -3,7 +3,6 @@ import { Fade } from 'react-awesome-reveal';
 import ReactMarkdown from 'react-markdown';
 import { Box, Flex, Image } from 'rebass/styled-components';
 import styled from 'styled-components';
-import Photo from '../../media/tough_mudder.jpg';
 import markdownRenderer from '../components/MarkdownRenderer';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
@@ -30,7 +29,7 @@ const About = () => {
             <ProfilePicture
               mt={[4, 4, 0]}
               ml={[0, 0, 1]}
-              src={Photo}
+              src={require('../../media/tough_mudder.png')}
               alt="About Me Photo"
             />
           </Fade>
