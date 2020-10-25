@@ -1,12 +1,12 @@
+import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
-import { Heading, Text } from 'rebass';
-import { StaticQuery, graphql } from 'gatsby';
-import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
-import Section from '../components/Section';
-import { CardContainer, Card } from '../components/Card';
-import Triangle from '../components/Triangle';
+import { Heading, Text } from 'rebass';
+import styled from 'styled-components';
+import { Card, CardContainer } from '../components/Card';
 import ImageSubtitle from '../components/ImageSubtitle';
+import Section from '../components/Section';
+import Triangle from '../components/Triangle';
 
 const Background = () => (
   <div>
@@ -97,7 +97,7 @@ const edgeToArray = data => data.edges.map(edge => edge.node);
 
 const Writing = () => (
   <Section.Container id="writing" Background={Background}>
-    <Section.Header name="Writing" icon="✍️" label="writing" />
+    <Section.Header name="Articles" icon="✍️" label="writing" />
     <StaticQuery
       query={graphql`
         query MediumPostQuery {

@@ -48,12 +48,8 @@ typings/
 # Optional REPL history
 .node_repl_history
 
-# Output of 'npm pack'
-*.tgz
-
 # Yarn Integrity file
 .yarn-integrity
-.yarn/
 
 # dotenv environment variables file
 .env
@@ -69,3 +65,5 @@ netlify.toml
 
 # mac FS
 .DS_Store
+.vscode/
+about.json

@@ -1,8 +1,19 @@
 module.exports = {
-  extends: ['airbnb', 'prettier'],
+  root: true,
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'plugin:cypress/recommended',
+  ],
   rules: {
-    'react/jsx-filename-extension': 'off',
-    'react/require-default-props': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 0,
   },
-  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+  },
 };
