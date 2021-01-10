@@ -22,7 +22,7 @@ const Footer = () => {
             <span role="img" aria-label="heart">
               ❤️
             </span> */}
-            <span>&copy; 2018 Nicholas Prieto</span>
+            <span>&copy; 2020 Nicholas Prieto</span>
           </TextWrapper>
         </Fade>
         <Flex>
