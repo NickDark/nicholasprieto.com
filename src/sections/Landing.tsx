@@ -1,10 +1,10 @@
 import React from 'react';
-import { Heading, Flex, Box, Text } from 'rebass/styled-components';
+import { useScrollSection } from 'react-scroll-section';
 import TextLoop from 'react-text-loop';
+import { Box, Flex, Heading, Text } from 'rebass/styled-components';
+import MouseIcon from '../components/ScrollIcon';
 import Section from '../components/Section';
 import SocialLink from '../components/SocialLink';
-import { useScrollSection } from 'react-scroll-section';
-import MouseIcon from '../components/ScrollIcon';
 import Triangle from '../components/Triangle';
 import { useSiteQuery } from '../queries/useSiteQuery';
 
@@ -23,7 +23,7 @@ const LandingPage = () => {
         fontSize={[6, 7]}
         mb={[3, 4, 5]}
       >
-        {`Hello, I'm ${name}!`}
+        {`Hello, I'm Nick`}
       </Heading>
 
       <Heading
